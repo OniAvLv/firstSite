@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2? ');
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.back {
+    background-image: url(../imgse/fonten.svg);
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 15px;
+    font-size: 14px;
+}
+.header__logo {
+    width: 153px;
+    height: 46px;
+    background-image: url(../imgse/Logo.svg);
+    background-repeat: no-repeat;
+    margin-bottom: 13px;
+}
+.header__buttom {
+    display: flex;
+    justify-content: space-between;
+}
+.header__item {
+    color: #fff;
+    padding: 20px;
+}
+.header__item_gradient {
+    background: linear-gradient(20deg, #678069 6%, #37712c 92.95%);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.header__media {
+    display: flex;
+    gap: 10px;
+}
+.header__media_you {
+    background-image: url(../imgse/yt.svg);
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+}
+.header__media_vk {
+    background-image: url(../imgse/vk.svg);
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+}
+
+.form {
+    position: relative;
+}
+.from__button {
+    width: 20px;
+    height: 20px;
+    background-image: url(../imgse/search.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: calc(50% - 10px);
+    left: 10px;
+}
+.form__input {
+    width: 384px;
+    background: linear-gradient(20deg, #678069 6%, #37712c 92.95%);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+.form__input::placeholder {
+    color: #fff;
+}
+.form__input:focus {
+    outline: none;
+    color: #fff;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    padding: 100px 0px;
+}
+.compani {
+    font-size: 40px;
+    line-height: 1.5;
+}
+.player {
+    display: flex;
+    height: 82;
+    justify-content:left;
+    gap: 30px;
+    align-items: center;
+    padding: 100px 0px;
+}
+.player__link {
+    width: 80px;
+    height: 80px;
+    background-image: url(../imgse/Player.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+}
+.player__text {
+    width: 180px;
+    font-size: 16px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+}
+.block {
+    background-color: #8D86C9;
+    width: 315px;
+    height: 151px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.block_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block__text-sml {
+    font-size: 16px;
+    padding-top: 51px;
+    padding-left: 35px;
+}
+.block__text-big {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 35px;
+}
+.block__link {
+    width: 30px;
+    height: 30px;
+    background-image: url(../imgse/cube.svg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    position: absolute;
+    top: 80px;
+    left: 250px;
+}
+.photo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.photo__block {
+    padding-top: 175px;
+}
+.photo__img {
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.photo__img_1 {
+    background-image: url(../imgse/1.png);
+    width: 376px;
+    height: 450px;
+}
+
+.photo__img_2 {
+    background-image: url(../imgse/2.png);
+    width: 376px;
+    height: 450px;
+}
+
+.photo__img_3 {
+    background-image: url(../imgse/3.png);
+    width: 376px;
+    height: 450px;
+}
+.photo__text {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 40px;
+    line-height: 1.5;
+}
+.club {
+    display: flex;
+    justify-content: right;
+    padding-top: 150px;
+    position: relative;
+    padding-right: 100px;
+}
+.club__photo {
+    width: 526px;
+    height: 514px;
+    background-image: url(../imgse/4.jpg);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    position: absolute;
+    top: 220px;
+    left: 100px;
+}
+.club__text {
+    color: black;
+}
+
+.club__text-size {
+    width: 636px;
+    height: 654px;
+    background-color: #F7ECE1;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+.club__text_text-h1 {
+    font-size: 40px;
+}
+.club__text_text-p {
+    font-size: 14px;
+}
+.club__text_text-h2 {
+    font-size: 20px;
+}
+.club__text_list {
+    font-size: 14px;
+}
